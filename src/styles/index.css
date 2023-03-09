@@ -9,4 +9,87 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+*/.navbar-brand{
+    color: gold;
+    margin-top: 0.5rem;
+}
+.Register{
+    padding-right: 10px;
+    margin-top: 0.7rem;
+}
+.Login{
+    padding-right: 10px;
+    margin-top: 0.7rem;
+}
+.sportsicon{
+    margin-top: 0.2rem;
+}
+
+
+
+.navnav{
+    color: aliceblue;
+}
+.Bck{
+    background-color: rgb(255, 253, 253);
+    margin-bottom: 40rem;
+}
+
+
+.card{
+    position: absolute;
+    top: 16rem;
+    border-radius: 25px;
+    color: rgb(238, 231, 237);
+    left: 47.5rem;
+    width: 20%;
+    min-height: 10 vh;
+    padding-top: 65px;
+    padding-bottom: 35px;
+    background-color: #282a02;
+    opacity: 0.8;
+    background-image: radial-gradient(#dbd40f 0.55px, #282a02 0.55px);
+    background-size: 11px 11px;
+    @media (max-width 1887px;){
+        position: absolute;
+        
+    }
+
+}
+.card-title{
+    color: rgb(255, 0, 225);
+    padding-bottom: 35px;
+    animation: color-change 10s infinite;
+}
+.img-fluid{
+    width: 100%;
+}
+ 
+  @keyframes color-change {
+    0% { color: rgb(234, 255, 47); }
+    20% { color: gold; }
+    40% { color: goldenrod; }
+    60% { color: yellowgreen; }
+    80% { color: greenyellow; }
+    100% { color: rgb(157, 255, 0); }
+  }
+.list-group-item{
+    background-color: rgb(71, 62, 62);
+    color: beige;
+}
+.button{
+    margin-top: 22px;
+    width: 40%;
+
+ 
+}
+hr.solid {
+    border-top: 3px solid;
+    color: blueviolet;
+}
+
+.card{
+@media screen and (min-width:1890px) {
+    background: white;;
+}
+}
