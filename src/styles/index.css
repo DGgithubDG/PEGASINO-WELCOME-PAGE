@@ -51,7 +51,6 @@
     background-image: radial-gradient(#dbd40f 0.55px, #282a02 0.55px);
     background-size: 11px 11px;
     @media (max-width 1887px;){
-        position: absolute;
         
     }
 
@@ -87,9 +86,26 @@ hr.solid {
     border-top: 3px solid;
     color: blueviolet;
 }
+.language-picker{
+padding-right: 1.5rem;
+padding-top: 0.7rem;
 
+}
 .card{
-@media screen and (min-width:1890px) {
-    background: white;;
+@media screen and (min-width:1890px)   position: absolute;
+top: 16rem;
+border-radius: 25px;
+color: rgb(238, 231, 237);
+left: 47.5rem;
+width: 20%;
+min-height: 10 vh;
+padding-top: 65px;
+padding-bottom: 35px;
+background-color: #282a02;
+opacity: 0.8;
+background-image: radial-gradient(#dbd40f 0.55px, #282a02 0.55px);
+background-size: 11px 11px;
+@media (max-width 1887px;){
+    
 }
 }
