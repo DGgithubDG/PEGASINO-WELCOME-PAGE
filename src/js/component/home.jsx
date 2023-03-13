@@ -22,32 +22,20 @@ const Home = () => {
         <div className="Background">
     <Navbar/>
     <div></div><div>
-    <img class="img-fluid" src={casino}></img>
+     <img class="img-fluid" src={casino}></img> 
     <div class="card text-center">
   <div class="card-body">
     <h5 class="card-title"><h1>PEGASINO</h1></h5>
     {/* <BG title="Bulgaria" className="falg"/> */}
-
-
     <p class="card-text text-start"><FcApproval size={38}/><strong>Always the best odds with Casino</strong></p>
     <p class="card-text text-start"><FcMoneyTransfer size={38}/><strong>Quick and easy deposits & withdrawals</strong></p>
     <p class="card-text text-start"><FcLink size={38}/><strong>Transparency, responsibility and security</strong></p>
-   
-    <a href="#" class="button btn btn-success">REGISTER</a>
-  
-    {/* <Link to="/">
-				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-			</Link> */}
+    <button type="button" class="btn btn-success">REGISTER</button>
   </div>
 </div>
-    {/* <img className="Back" src="https://www.wildz.com/cdn/2021/09/30/wildz-blog-online-casino-2_uid_6155c3688c52d.jpeg?&cover=true" class="img-fluid" alt=""/>  */}
-     {/* <Card/>  */}
     </div>
     <Footer/>
     </div>
-
-    
-    
 	);
 };
 

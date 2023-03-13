@@ -1,6 +1,5 @@
 import React, {useState }from "react";
 //import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { FaHome } from 'react-icons/fa'
 import { FaBasketballBall } from 'react-icons/fa'
 import { FaGamepad } from 'react-icons/fa'
 import { FaMoneyBillAlt } from 'react-icons/fa'
@@ -9,11 +8,6 @@ import { MdCasino, MdStars } from 'react-icons/md'
 import { ImNewspaper } from 'react-icons/im'
 import { BG } from 'country-flag-icons/react/3x2'
 
-
-
-
-
-//create your first component
 const Navbar = () => {
 	return (
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -34,17 +28,10 @@ const Navbar = () => {
 		<li class="nav-item">
         <a className=" sportsicon nav-link active" aria-current="page" href="https://www.pegasino.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>LIVE CASINO</i></button><FaMoneyBillAlt/></div></a>
         </li>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		  <li class="nav-item">
-        <a className=" sportsicon nav-link active" aria-current="page" href="https://www.pegasino.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>POKER</i></button><GiCard7Clubs/></div></a>
-        </li>
-			     </ul>
         </li>
         <li class="nav-item">
         <a className=" sportsicon nav-link active" aria-current="page" href="https://www.pegasino.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>VIRTUAL GAMES</i></button><FaGamepad/></div></a>
         </li>
-		
-		
 		<li class="nav-item">
         <a className=" sportsicon nav-link active" aria-current="page" href="https://www.pegasino.com/"><div className="navnav"><button type="button" class="btn btn-dark"><div className="pad"></div><i>BLOG</i></button><ImNewspaper/></div></a>
         </li>

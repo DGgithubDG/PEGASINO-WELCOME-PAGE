@@ -1,15 +1,4 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/.navbar-brand{
+.navbar-brand{
     color: gold;
     margin-top: 0.5rem;
 }
@@ -24,46 +13,14 @@
 .sportsicon{
     margin-top: 0.2rem;
 }
-
-
-
 .navnav{
     color: aliceblue;
-}
-.Bck{
-    background-color: rgb(255, 253, 253);
-    margin-bottom: 40rem;
-}
-
-
-.card{
-    position: absolute;
-    top: 16rem;
-    border-radius: 25px;
-    color: rgb(238, 231, 237);
-    left: 47.5rem;
-    width: 20%;
-    min-height: 10 vh;
-    padding-top: 65px;
-    padding-bottom: 35px;
-    background-color: #282a02;
-    opacity: 0.8;
-    background-image: radial-gradient(#dbd40f 0.55px, #282a02 0.55px);
-    background-size: 11px 11px;
-    @media (max-width 1887px;){
-        
-    }
-
 }
 .card-title{
     color: rgb(255, 0, 225);
     padding-bottom: 35px;
     animation: color-change 10s infinite;
 }
-.img-fluid{
-    width: 100%;
-}
- 
   @keyframes color-change {
     0% { color: rgb(234, 255, 47); }
     20% { color: gold; }
@@ -79,33 +36,28 @@
 .button{
     margin-top: 22px;
     width: 40%;
-
- 
 }
-hr.solid {
-    border-top: 3px solid;
-    color: blueviolet;
-}
-.language-picker{
-padding-right: 1.5rem;
-padding-top: 0.7rem;
-
-}
-.card{
-@media screen and (min-width:1890px)   position: absolute;
-top: 16rem;
-border-radius: 25px;
-color: rgb(238, 231, 237);
-left: 47.5rem;
-width: 20%;
-min-height: 10 vh;
-padding-top: 65px;
-padding-bottom: 35px;
-background-color: #282a02;
+.card {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    display: block;
+    left: 750px ;
+    bottom: 22rem;
+    background-color: #494902;
 opacity: 0.8;
-background-image: radial-gradient(#dbd40f 0.55px, #282a02 0.55px);
-background-size: 11px 11px;
-@media (max-width 1887px;){
-    
-}
-}
+background-image:  radial-gradient(#bec925 0.75px, transparent 0.75px), radial-gradient(#bec925 0.75px, #494902 0.75px);
+background-size: 30px 30px;
+background-position: 0 0,15px 15px;
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 2400px) {
+    .card {
+      max-width: 420px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
