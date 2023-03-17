@@ -1,6 +1,6 @@
 .navbar-brand{
     color: gold;
-    margin-top: 0.5rem;
+    border-radius: 25px;
 }
 .Register{
     padding-right: 10px;

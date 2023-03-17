@@ -10,6 +10,7 @@ import { FcLink } from "react-icons/fc";
 //import { Link } from "react-router-dom";
 
 import casino from "../../img/casino.9.jpg";
+import pegasino from "../../img/pegasino1.png";
 import Navbar from "./navbar";
 import Footer from "./footer";
 //import Card from "./card";
@@ -31,6 +32,7 @@ const Home = () => {
     <p class="card-text text-start"><FcMoneyTransfer size={38}/><strong>Quick and easy deposits & withdrawals</strong></p>
     <p class="card-text text-start"><FcLink size={38}/><strong>Transparency, responsibility and security</strong></p>
     <button type="button" class="btn btn-success">REGISTER</button>
+
   </div>
 </div>
     </div>
