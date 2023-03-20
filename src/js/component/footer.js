@@ -39,7 +39,7 @@ const Footer = () => {
                 <div class="row d-flex justify-content-center">
                   <div class="col-auto">
                     <p class="pt-2">
-                      <strong>Sign up for our newsletter</strong>
+                      <strong>Sign up for Pegasino newsletter</strong>
                     </p>
                   </div>
         
